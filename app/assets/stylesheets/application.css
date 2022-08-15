@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+.user{
+  color: black;
+  padding: 3px;
+  border-left: 5px solid #dddddd;
+ }
+
+ .user > div{
+  padding: 0px 10px;
+ }
+
+.trainer {
+  color: black;
+  background-color: #ffffe1;
+  padding: 3px;
+  border-left: 5px solid #dddddd;
+  margin-top: 20px;
+}
+
+.trainer > div {
+  padding: 0px 10px;
+}
+
+.trainer > div > :first-child{
+  font-weight: bold;
+}
